@@ -1,4 +1,4 @@
-#Thu May 28 10:56:12 CDT 2020
+#Sat May 30 17:50:40 CDT 2020
 base.0=/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

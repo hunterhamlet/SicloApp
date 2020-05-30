@@ -1,132 +1,290 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1d9e6f69834a4afe3b6ba8097aab12c9/databinding-adapters-3.6.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f48989f9fcf780095bf144e459f79b8c/databinding-runtime-3.6.2/AndroidManifest.xml:17:1-24:12
+MERGED from [org.koin:koin-androidx-viewmodel:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/21f8079261d580495853800ffa85bd72/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-androidx-scope:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/4ae7356a9c8017f902ae6578248143ce/jetified-koin-androidx-scope-2.1.5/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/247d4fcdf7f8edc2c65773a7620951cd/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f465870b852f14631b46f433fc034c25/navigation-ui-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.0-alpha06] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d7ca4749da7521c1e2fcd0aa7e7141f1/material-1.2.0-alpha06/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e8d54c0c40159fca4f0e5f755d1626b/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8533f48969b13debb843824034f6ac02/jetified-coil-0.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e2c7098fb3dbddf2c3e4631a8f632854/jetified-coil-base-0.11.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f05417bf7e012bbf9f6a429d91d5cbed/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3e0db6ee4046809d147dc4eeacb3d88e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/635eb13ff3fd5206361b1d2401a155bb/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9856868a98cc355c76826b9baa6a8052/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/c6b5edb87250e4ead366ad97eda8e132/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/eb4983365b0e1549163e2363b8337d12/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92942547c781bc8021e516e3fff3bfe9/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3d5f8dce1048ee2a7f145a7e8cb05800/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b4832cf90eb72a8e6b02257863965232/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b84ed682a985f869562d5c7bc8c16b29/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hamon/.gradle/caches/transforms-2/files-2.1/14078d22dfb804da7b51aef357d22078/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1f911168b6845685a222c1b4f1c2a057/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cdc436d27e32397c183a9bff26dfd6e9/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/be0e8481dceac89e93c56762cce34d63/jetified-viewbinding-3.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b01ba2836d1f0eb315906556cac599de/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7262e8cde285c8def560a2062f8f1beb/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/01e2d9b09d940eca349514ca57803fca/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6892d48278565eaac3df0e6fe157fefb/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a89a76b77004dccbba654b83824b5364/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ef5ec50a561c1295390eff407295e800/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/932fa44f1f133a2fb0e0463da1a3f5ac/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6776524985c26da0ed18e6b81bdf60d2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/90695a69b8d4940fac043888a0e89ec8/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8471f41fa3827e551717d983452a234b/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a37f5ce081114440e20dd38db0b20ba7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b4b5c2d78272437de863e2d913c1858/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0b0ee03ff7d590a876dacb36d6d60dbb/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e1313e1023ab5981dd7cbc5bd66dc64/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0036effdf9b1bc3b6144e6dabe0f5f87/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media:media:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9e25715f4b85ba2b4118faaeb89b45e1/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/557260bc8de620472d8f98bc8c958b4e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7a3f7ce62e471003a6cac2e66b0c984e/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d5b4564dafdc0628d1cec5c9dcbc9a66/drawerlayout-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f86311b700709132ddb86c53c704e086/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9b0d04ca96a98b89fb93e15954834cde/customview-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/22ef2ec32c8963a5b4a01e1ac8d062a7/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ac44f8c65809348f9d0cda6d0aa5b0cd/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e542be750aa8863f27f2bb383b5880cd/navigation-common-2.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/707ddd2c8b36a063eb4289376fdaf58c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b2bc65263e1016b02a8c714feb1f5802/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/48858acd3d2a95ac8fe1a667a50849c7/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d9acac1591a7fc7e9d2a23eddf36cb82/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.koin:koin-android:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b1ae928a48997b5349796d9aefc2508/jetified-koin-android-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a8282ba70234731facfb79ca6441ebd4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a40c2d64cbded9152742988ae06be978/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b5b83ac493b3764971e40dda043b8150/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9a2cb55c75256709487537f0143bcc39/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92211e2659730570f81cf5b0172ebfbd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/17e7ba9e4098f2778ccc22854e62d951/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/747713853b9f90a7e29d0c9c8b91d198/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b3c50641fe720527128c8a7d95d1ed9d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f168ccec9af86690958e33a9f35df692/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3436687de72171f703121e38cc4e8bcd/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f7c51580aa301cabc69ca295570f18fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ab1840346f6c2b91af337c01db925247/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cc244557d583010853ac09297542c927/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9c957c2911e087c8cd2a435a99247fb0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0d5c1baefae2914f90301c1b9a1ae072/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3bea3f04d1eedfab06cc5bad330669d8/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7581c4445f3cfbdb7c793343aee5dbc4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:9:5-26:19
+MERGED from [org.koin:koin-androidx-viewmodel:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/21f8079261d580495853800ffa85bd72/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/21f8079261d580495853800ffa85bd72/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/4ae7356a9c8017f902ae6578248143ce/jetified-koin-androidx-scope-2.1.5/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/4ae7356a9c8017f902ae6578248143ce/jetified-koin-androidx-scope-2.1.5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha06] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d7ca4749da7521c1e2fcd0aa7e7141f1/material-1.2.0-alpha06/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha06] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d7ca4749da7521c1e2fcd0aa7e7141f1/material-1.2.0-alpha06/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92942547c781bc8021e516e3fff3bfe9/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92942547c781bc8021e516e3fff3bfe9/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b4832cf90eb72a8e6b02257863965232/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b4832cf90eb72a8e6b02257863965232/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hamon/.gradle/caches/transforms-2/files-2.1/14078d22dfb804da7b51aef357d22078/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hamon/.gradle/caches/transforms-2/files-2.1/14078d22dfb804da7b51aef357d22078/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b2bc65263e1016b02a8c714feb1f5802/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b2bc65263e1016b02a8c714feb1f5802/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:13:9-50
 	android:icon
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:11:9-45
 	android:allowBackup
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.hamon.sicloapp.MainActivity
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:12:9-18:20
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.hamon.sicloapp.view.SplashActivity
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:theme
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:16:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.hamon.sicloapp.view.MainActivity
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:25:9-54
+	android:name
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:25:19-52
 uses-sdk
 INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1d9e6f69834a4afe3b6ba8097aab12c9/databinding-adapters-3.6.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1d9e6f69834a4afe3b6ba8097aab12c9/databinding-adapters-3.6.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f48989f9fcf780095bf144e459f79b8c/databinding-runtime-3.6.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f48989f9fcf780095bf144e459f79b8c/databinding-runtime-3.6.2/AndroidManifest.xml:22:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/21f8079261d580495853800ffa85bd72/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/21f8079261d580495853800ffa85bd72/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/4ae7356a9c8017f902ae6578248143ce/jetified-koin-androidx-scope-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/4ae7356a9c8017f902ae6578248143ce/jetified-koin-androidx-scope-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/247d4fcdf7f8edc2c65773a7620951cd/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/247d4fcdf7f8edc2c65773a7620951cd/navigation-ui-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f465870b852f14631b46f433fc034c25/navigation-ui-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f465870b852f14631b46f433fc034c25/navigation-ui-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.0-alpha06] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d7ca4749da7521c1e2fcd0aa7e7141f1/material-1.2.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha06] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d7ca4749da7521c1e2fcd0aa7e7141f1/material-1.2.0-alpha06/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e8d54c0c40159fca4f0e5f755d1626b/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e8d54c0c40159fca4f0e5f755d1626b/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8533f48969b13debb843824034f6ac02/jetified-coil-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8533f48969b13debb843824034f6ac02/jetified-coil-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e2c7098fb3dbddf2c3e4631a8f632854/jetified-coil-base-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.11.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e2c7098fb3dbddf2c3e4631a8f632854/jetified-coil-base-0.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f05417bf7e012bbf9f6a429d91d5cbed/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f05417bf7e012bbf9f6a429d91d5cbed/navigation-fragment-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3e0db6ee4046809d147dc4eeacb3d88e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3e0db6ee4046809d147dc4eeacb3d88e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/635eb13ff3fd5206361b1d2401a155bb/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/635eb13ff3fd5206361b1d2401a155bb/navigation-runtime-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9856868a98cc355c76826b9baa6a8052/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9856868a98cc355c76826b9baa6a8052/navigation-common-ktx-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/c6b5edb87250e4ead366ad97eda8e132/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/c6b5edb87250e4ead366ad97eda8e132/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/eb4983365b0e1549163e2363b8337d12/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/eb4983365b0e1549163e2363b8337d12/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92942547c781bc8021e516e3fff3bfe9/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92942547c781bc8021e516e3fff3bfe9/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3d5f8dce1048ee2a7f145a7e8cb05800/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3d5f8dce1048ee2a7f145a7e8cb05800/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b4832cf90eb72a8e6b02257863965232/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b4832cf90eb72a8e6b02257863965232/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b84ed682a985f869562d5c7bc8c16b29/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b84ed682a985f869562d5c7bc8c16b29/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hamon/.gradle/caches/transforms-2/files-2.1/14078d22dfb804da7b51aef357d22078/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hamon/.gradle/caches/transforms-2/files-2.1/14078d22dfb804da7b51aef357d22078/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1f911168b6845685a222c1b4f1c2a057/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1f911168b6845685a222c1b4f1c2a057/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cdc436d27e32397c183a9bff26dfd6e9/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cdc436d27e32397c183a9bff26dfd6e9/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/be0e8481dceac89e93c56762cce34d63/jetified-viewbinding-3.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.2] /Users/hamon/.gradle/caches/transforms-2/files-2.1/be0e8481dceac89e93c56762cce34d63/jetified-viewbinding-3.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b01ba2836d1f0eb315906556cac599de/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b01ba2836d1f0eb315906556cac599de/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7262e8cde285c8def560a2062f8f1beb/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7262e8cde285c8def560a2062f8f1beb/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/01e2d9b09d940eca349514ca57803fca/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/01e2d9b09d940eca349514ca57803fca/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6892d48278565eaac3df0e6fe157fefb/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6892d48278565eaac3df0e6fe157fefb/navigation-fragment-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a89a76b77004dccbba654b83824b5364/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a89a76b77004dccbba654b83824b5364/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ef5ec50a561c1295390eff407295e800/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ef5ec50a561c1295390eff407295e800/navigation-runtime-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/932fa44f1f133a2fb0e0463da1a3f5ac/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/932fa44f1f133a2fb0e0463da1a3f5ac/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6776524985c26da0ed18e6b81bdf60d2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/6776524985c26da0ed18e6b81bdf60d2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/90695a69b8d4940fac043888a0e89ec8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/90695a69b8d4940fac043888a0e89ec8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8471f41fa3827e551717d983452a234b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8471f41fa3827e551717d983452a234b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a37f5ce081114440e20dd38db0b20ba7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a37f5ce081114440e20dd38db0b20ba7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b4b5c2d78272437de863e2d913c1858/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b4b5c2d78272437de863e2d913c1858/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0b0ee03ff7d590a876dacb36d6d60dbb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0b0ee03ff7d590a876dacb36d6d60dbb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e1313e1023ab5981dd7cbc5bd66dc64/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/8e1313e1023ab5981dd7cbc5bd66dc64/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0036effdf9b1bc3b6144e6dabe0f5f87/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0036effdf9b1bc3b6144e6dabe0f5f87/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/5c52af2befcfdd7f061cdb2081c184d3/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9e25715f4b85ba2b4118faaeb89b45e1/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9e25715f4b85ba2b4118faaeb89b45e1/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/557260bc8de620472d8f98bc8c958b4e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/557260bc8de620472d8f98bc8c958b4e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7a3f7ce62e471003a6cac2e66b0c984e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7a3f7ce62e471003a6cac2e66b0c984e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d5b4564dafdc0628d1cec5c9dcbc9a66/drawerlayout-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d5b4564dafdc0628d1cec5c9dcbc9a66/drawerlayout-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/42b960bedee88cfd8d2ebab0254a3167/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f86311b700709132ddb86c53c704e086/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f86311b700709132ddb86c53c704e086/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9b0d04ca96a98b89fb93e15954834cde/customview-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9b0d04ca96a98b89fb93e15954834cde/customview-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/710286b5166686e487599c4d5bdf880e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/22ef2ec32c8963a5b4a01e1ac8d062a7/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/22ef2ec32c8963a5b4a01e1ac8d062a7/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ac44f8c65809348f9d0cda6d0aa5b0cd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ac44f8c65809348f9d0cda6d0aa5b0cd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e542be750aa8863f27f2bb383b5880cd/navigation-common-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-beta01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/e542be750aa8863f27f2bb383b5880cd/navigation-common-2.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-rc01] /Users/hamon/.gradle/caches/transforms-2/files-2.1/069ab005ba0cdc5e691a16cddff2e869/core-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/707ddd2c8b36a063eb4289376fdaf58c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/707ddd2c8b36a063eb4289376fdaf58c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b2bc65263e1016b02a8c714feb1f5802/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b2bc65263e1016b02a8c714feb1f5802/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/48858acd3d2a95ac8fe1a667a50849c7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/48858acd3d2a95ac8fe1a667a50849c7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d9acac1591a7fc7e9d2a23eddf36cb82/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/d9acac1591a7fc7e9d2a23eddf36cb82/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-android:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b1ae928a48997b5349796d9aefc2508/jetified-koin-android-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.1.5] /Users/hamon/.gradle/caches/transforms-2/files-2.1/1b1ae928a48997b5349796d9aefc2508/jetified-koin-android-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a8282ba70234731facfb79ca6441ebd4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a8282ba70234731facfb79ca6441ebd4/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9930803d377bea263e0064a0795d70d2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a40c2d64cbded9152742988ae06be978/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/a40c2d64cbded9152742988ae06be978/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b5b83ac493b3764971e40dda043b8150/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b5b83ac493b3764971e40dda043b8150/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9a2cb55c75256709487537f0143bcc39/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9a2cb55c75256709487537f0143bcc39/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92211e2659730570f81cf5b0172ebfbd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/92211e2659730570f81cf5b0172ebfbd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/17e7ba9e4098f2778ccc22854e62d951/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/17e7ba9e4098f2778ccc22854e62d951/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/747713853b9f90a7e29d0c9c8b91d198/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/747713853b9f90a7e29d0c9c8b91d198/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b3c50641fe720527128c8a7d95d1ed9d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/b3c50641fe720527128c8a7d95d1ed9d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f168ccec9af86690958e33a9f35df692/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f168ccec9af86690958e33a9f35df692/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3436687de72171f703121e38cc4e8bcd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3436687de72171f703121e38cc4e8bcd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f7c51580aa301cabc69ca295570f18fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/f7c51580aa301cabc69ca295570f18fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ab1840346f6c2b91af337c01db925247/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/ab1840346f6c2b91af337c01db925247/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cc244557d583010853ac09297542c927/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/cc244557d583010853ac09297542c927/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9c957c2911e087c8cd2a435a99247fb0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/9c957c2911e087c8cd2a435a99247fb0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0d5c1baefae2914f90301c1b9a1ae072/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/0d5c1baefae2914f90301c1b9a1ae072/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3bea3f04d1eedfab06cc5bad330669d8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/3bea3f04d1eedfab06cc5bad330669d8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7581c4445f3cfbdb7c793343aee5dbc4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/7581c4445f3cfbdb7c793343aee5dbc4/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -137,3 +295,13 @@ INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/Androi
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/hamon/.gradle/caches/transforms-2/files-2.1/66bae22f5347e87ae5d6e3377a49d950/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
