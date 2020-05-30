@@ -1,62 +1,98 @@
 [
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-hdpi/ic_bike_splash.png"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_regular.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_regular.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable_splash_background.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable/splash_background.xml"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_italic.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_black_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_black_italic.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_medium.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_medium.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_light_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_light_italic.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-xxxhdpi/ic_bike_splash.png"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_enroll_clas.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_enroll_clas.xml"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_light.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_light.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_bold.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_bold.ttf"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-xhdpi/ic_bike_splash.png"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable_ic_bike_app.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable/ic_bike_app.xml"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-xxhdpi/ic_bike_splash.png"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_thin.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_thin.ttf"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_medium_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_medium_italic.ttf"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_bold_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_bold_italic.ttf"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_calendar.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-mdpi/ic_bike_splash.png"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_thin_italic.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_thin_italic.ttf"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_black.ttf.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_black.ttf"
     },
     {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

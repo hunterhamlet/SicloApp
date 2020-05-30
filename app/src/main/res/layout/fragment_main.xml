@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.65" />
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/guidelineMain"
+            app:srcCompat="@drawable/ic_bike_app" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textViewTitleApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleApp"
+            android:fontFamily="@font/roboto_black"
+            android:textSize="@dimen/titleAppSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageIcon"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonLogIn"
+            android:layout_width="@dimen/emptySize"
+            android:layout_height="wrap_content"
+            style="@style/buttonColor"
+            android:text="@string/loginString"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guidelineMain"
+            app:layout_constraintBottom_toTopOf="@id/buttonRegistrar"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRegistrar"
+            android:layout_width="@dimen/emptySize"
+            android:layout_height="wrap_content"
+            style="@style/buttonColor"
+            android:text="@string/registerString"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonLogIn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
