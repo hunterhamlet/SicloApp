@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutNames"
+            style="@style/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sixteen_dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputNames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userName"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapCharacters"
+                android:maxLength="45"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/inputLastNameM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutLastName"
+            style="@style/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sixteen_dp"
+            app:layout_constraintEnd_toEndOf="@id/inputLayoutNames"
+            app:layout_constraintStart_toStartOf="@id/inputLayoutNames"
+            app:layout_constraintTop_toBottomOf="@id/inputLayoutNames">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userLastName"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapCharacters"
+                android:maxLength="45"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/inputLastNameM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutSecondLastName"
+            style="@style/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sixteen_dp"
+            app:layout_constraintEnd_toEndOf="@id/inputLayoutNames"
+            app:layout_constraintStart_toStartOf="@id/inputLayoutNames"
+            app:layout_constraintTop_toBottomOf="@id/inputLayoutLastName"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputSecondLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userSecondLastName"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapCharacters"
+                android:maxLength="45"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/inputLastNameM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutUserEmail"
+            style="@style/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sixteen_dp"
+            app:layout_constraintEnd_toEndOf="@id/inputLayoutNames"
+            app:layout_constraintStart_toStartOf="@id/inputLayoutNames"
+            app:layout_constraintTop_toBottomOf="@id/inputLayoutSecondLastName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userEmail"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLength="45"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/inputLastNameM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayoutUserPass"
+            style="@style/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sixteen_dp"
+            app:layout_constraintEnd_toEndOf="@id/inputLayoutNames"
+            app:layout_constraintStart_toStartOf="@id/inputLayoutNames"
+            app:layout_constraintTop_toBottomOf="@id/inputLayoutUserEmail"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputUserPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userPass"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="45"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/inputLastNameM" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonContinue"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            style="@style/buttonColor"
+            android:text="@string/continueString"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="@dimen/sixteen_dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
