@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.hamon.sicloapp.R
 import com.hamon.sicloapp.databinding.FragmentMainBinding
+import org.koin.android.ext.android.inject
 
 class MainFragment : Fragment() {
 
@@ -15,15 +16,23 @@ class MainFragment : Fragment() {
         FragmentMainBinding.inflate(LayoutInflater.from(context), null, false)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return binding.root
-    }
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?)
+            : View? =  binding.root
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        setupClickListener()
+    }
+
+    private fun setupClickListener(){
+        binding.apply {
+            buttonRegister.setOnClickListener {
+                findNavController().navigate(R.id.action_mainFragment_to_registerFragment)
+            }
+            buttonLogin.setOnClickListener {
+                findNavController().navigate(R.id.action_mainFragment_to_loginFragment)
+            }
+        }
     }
 
 }

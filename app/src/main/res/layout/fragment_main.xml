@@ -37,26 +37,26 @@
             app:layout_constraintTop_toBottomOf="@id/imageIcon" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonLogIn"
-            android:layout_width="@dimen/emptySize"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonLogin"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
             style="@style/buttonColor"
             android:text="@string/loginString"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/guidelineMain"
-            app:layout_constraintBottom_toTopOf="@id/buttonRegistrar"/>
+            app:layout_constraintBottom_toTopOf="@id/buttonRegister"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonRegistrar"
-            android:layout_width="@dimen/emptySize"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonRegister"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
             style="@style/buttonColor"
             android:text="@string/registerString"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/buttonLogIn" />
+            app:layout_constraintTop_toBottomOf="@id/buttonLogin" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

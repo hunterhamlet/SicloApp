@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name="com.hamon.sicloapp.app.SicloApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -26,6 +27,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.hamon.sicloapp.view.SplashActivity"
+            android:screenOrientation="fullSensor"
             android:theme="@style/splashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +35,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hamon.sicloapp.view.MainActivity" />
+        <activity
+            android:name="com.hamon.sicloapp.view.MainActivity"
+            android:screenOrientation="fullSensor" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
