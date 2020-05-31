@@ -1638,6 +1638,7 @@ id action_context_bar
 id action_divider
 id action_image
 id action_loginFragment_to_calendarFragment
+id action_mainFragment_to_calendarFragment
 id action_mainFragment_to_loginFragment
 id action_mainFragment_to_registerFragment
 id action_menu_divider

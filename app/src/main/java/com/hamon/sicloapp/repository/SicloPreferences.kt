@@ -67,7 +67,7 @@ class SicloPreferences(context: Context){
 
     fun setIsFirsTime(isFirstTime: Boolean){
         sharedPreferences.edit {
-            putBoolean(USER_PASS, isFirstTime)
+            putBoolean(IS_FIRST_TIME, isFirstTime)
         }
     }
 
