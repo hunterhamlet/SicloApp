@@ -24,7 +24,7 @@
             app:layout_constraintBottom_toTopOf="@id/guidelineMain"
             app:srcCompat="@drawable/ic_bike_app" />
 
-        <com.google.android.material.textview.MaterialTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textViewTitleApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -4,7 +4,7 @@
             "outputFile": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/8e8d54c0c40159fca4f0e5f755d1626b/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/b6bd2e6c5b613d01e87552d30d284f53/appcompat-1.1.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/a650daea72579af6aa28513fcd3caf96/material-1.2.0-beta01/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/e6e88dacb9794a34b0c70cbe0ce6df48/material-1.0.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

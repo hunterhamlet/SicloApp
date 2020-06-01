@@ -9,12 +9,11 @@ android {
 
     defaultConfig {
         applicationId "com.hamon.sicloapp"
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -22,15 +21,15 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        debug {
-            debuggable true
-        }
     }
 
     dataBinding {
         enabled = true
     }
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -42,7 +41,7 @@ dependencies {
 
     //core
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "androidx.appcompat:appcompat:$app_compat_version"
+    implementation ("androidx.appcompat:appcompat:$app_compat_version")
     implementation "androidx.core:core-ktx:$core_ktx_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
 
@@ -51,10 +50,7 @@ dependencies {
     implementation "org.koin:koin-androidx-viewmodel:$koin_version"
 
     //image
-    implementation "io.coil-kt:coil:$coil_version"
-
-    //material
-    implementation "com.google.android.material:material:$material_version"
+    implementation "com.squareup.picasso:picasso:$picasso_version"
 
     //navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -82,7 +78,6 @@ dependencies {
     implementation "com.google.android.exoplayer:exoplayer-ui:$exoplayer_version"
 
     //test core
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation "junit:junit:$junit_version"
     androidTestImplementation "androidx.test.ext:junit:$junit_ext_version"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"

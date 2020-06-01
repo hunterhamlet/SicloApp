@@ -68,6 +68,10 @@
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_register.xml"
     },
     {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_row_calendar_day_week.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/row_calendar_day_week.xml"
+    },
+    {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_login.xml"
     },
@@ -94,6 +98,10 @@
     {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_thin_italic.ttf.flat",
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_thin_italic.ttf"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_row_event_calendar.xml.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/row_event_calendar.xml"
     },
     {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_black.ttf.flat",

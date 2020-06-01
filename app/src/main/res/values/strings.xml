@@ -10,4 +10,9 @@
     <string name="userEmail">Email</string>
     <string name="userPass">Password</string>
     <string name="continueString">Continuar</string>
+    <string name="welcomeUser">Bienvenido, %1$s</string>
+    <string name="instructor_name">Instructor: %1$s</string>
+    <string name="init_class">Horario: %1$s</string>
+    <string name="duration_class">Duración: %1$s min</string>
+    <string name="intensity_class">Intensidad: %1$s</string>
 </resources>

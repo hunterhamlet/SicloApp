@@ -18,57 +18,62 @@ class SicloPreferences(context: Context){
     private val sharedPreferences: SharedPreferences by lazy { context.getSharedPreferences(SHARED_PREFERENCE, Context.MODE_PRIVATE) }
 
     fun setUserName(userName: String){
-        sharedPreferences.edit {
-            putString(USER_NAME, userName)
-        }
+        sharedPreferences
+            .edit()
+            .putString(USER_NAME, userName)
+            .apply()
     }
 
     fun getUserName() = sharedPreferences.getString(USER_NAME, "")
 
     fun setLastName(lastName: String){
-        sharedPreferences.edit {
-            putString(LAST_NAME, lastName)
-        }
+        sharedPreferences
+            .edit()
+            .putString(LAST_NAME, lastName)
+            .apply()
     }
 
     fun getLastName() = sharedPreferences.getString(LAST_NAME, "")
 
     fun setSecondLastName(secondLastName: String){
-        sharedPreferences.edit {
-            putString(SECOND_LAST_NAME, secondLastName)
+        sharedPreferences
+            .edit()
+            .putString(SECOND_LAST_NAME, secondLastName)
+            .apply()
         }
-    }
 
     fun getSecondLastName() = sharedPreferences.getString(SECOND_LAST_NAME, "")
 
     fun setFullName(fullName: String){
-        sharedPreferences.edit {
-            putString(FULL_NAME, fullName)
-        }
+        sharedPreferences
+            .edit()
+            .putString(FULL_NAME, fullName)
+            .apply()
     }
 
-    fun getFullName() = sharedPreferences.getString(FULL_NAME, "")
-
     fun setUserEmail(userEmail: String){
-        sharedPreferences.edit {
-            putString(USER_EMAIL, userEmail)
-        }
+        sharedPreferences
+            .edit()
+            .putString(USER_EMAIL, userEmail)
+            .apply()
     }
 
     fun getUserEmail() = sharedPreferences.getString(USER_EMAIL, "")
 
     fun setUserPass(userPass: String){
-        sharedPreferences.edit {
-            putString(USER_PASS, userPass)
-        }
+        sharedPreferences
+            .edit ()
+            .putString(USER_PASS, userPass)
+            .apply()
     }
 
     fun getUserPass() = sharedPreferences.getString(USER_PASS, "")
 
     fun setIsFirsTime(isFirstTime: Boolean){
-        sharedPreferences.edit {
-            putBoolean(IS_FIRST_TIME, isFirstTime)
-        }
+        sharedPreferences
+            .edit()
+            .putBoolean(IS_FIRST_TIME, isFirstTime)
+            .apply()
     }
 
     fun getIsFirsTime() = sharedPreferences.getBoolean(IS_FIRST_TIME, true)

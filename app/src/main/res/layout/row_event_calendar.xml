@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="classObject"
+            type="com.hamon.sicloapp.models.SicloClass" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/greyWhite"
+            app:cardCornerRadius="5dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cardDragged"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/instructorView"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:setInstructorImage="@{classObject.instructor.facePhoto}"
+                    android:background="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textViewClasName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    tools:text="Siclo+ 45 min"
+                    app:fontFamily="@font/roboto_black"
+                    android:text="@{classObject.tipo}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/instructorView"
+                    app:layout_constraintTop_toTopOf="@id/instructorView" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/instructorName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_regular"
+                    tools:text="Instructor: Jonatan Munguia"
+                    app:setInstructorName="@{classObject.instructor.nombre}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/instructorView"
+                    app:layout_constraintTop_toBottomOf="@id/textViewClasName" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/classHour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    tools:text="Horario: 07:00 AM"
+                    app:setClassHour="@{classObject.hour}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/instructorName"
+                    app:layout_constraintTop_toBottomOf="@id/instructorName" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/classDuration"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Duración: 45 min"
+                    app:setDurationClass="@{classObject.duration}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/instructorName"
+                    app:layout_constraintTop_toBottomOf="@id/classHour" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/classIntensity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Intensidad: 3"
+                    app:setIntensityClass="@{classObject.intensity}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/instructorName"
+                    app:layout_constraintTop_toBottomOf="@id/classDuration" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+
+</layout>
