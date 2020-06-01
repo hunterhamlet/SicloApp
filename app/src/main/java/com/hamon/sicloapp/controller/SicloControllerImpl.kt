@@ -8,6 +8,7 @@ class SicloControllerImpl(private val sicloAPI: SicloAPI): SicloController {
         return try {
             sicloAPI.getActivitiesCalendar()
         }catch (exception: Exception){
+            exception.printStackTrace()
             SicloResponse()
         }
     }

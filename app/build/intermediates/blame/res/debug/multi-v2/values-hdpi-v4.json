@@ -4,7 +4,7 @@
             "outputFile": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/8e8d54c0c40159fca4f0e5f755d1626b/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/hamon/.gradle/caches/transforms-2/files-2.1/b6bd2e6c5b613d01e87552d30d284f53/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
