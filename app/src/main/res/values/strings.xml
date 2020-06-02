@@ -15,4 +15,9 @@
     <string name="init_class">Horario: %1$s</string>
     <string name="duration_class">Duración: %1$s min</string>
     <string name="intensity_class">Intensidad: %1$s</string>
+    <string name="inscription_title">Inscripción a clase</string>
+    <string name="inscription_message">Deseas unirte a la clase: %1$s \n<b>Instructor</b>: %2$s \n<b>Horario</b>: %3$s \n<b>Duración</b>: %4$s min \n<b>Intensidad</b>: %5$s</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="video_url">https://drive.google.com/file/d/1MjhlX4Q_qvKKeDwB178TeMrnLrLIFw4k</string>
 </resources>

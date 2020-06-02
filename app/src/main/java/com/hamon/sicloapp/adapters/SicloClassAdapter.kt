@@ -7,7 +7,8 @@ import com.hamon.sicloapp.databinding.RowEventCalendarBinding
 import com.hamon.sicloapp.models.SicloClass
 import com.squareup.picasso.Picasso
 
-class SicloClassAdapter(private val listEvents: MutableList<SicloClass> =  mutableListOf()): RecyclerView.Adapter<SicloClassViewHolder>() {
+class SicloClassAdapter(private val listEvents: MutableList<SicloClass> =  mutableListOf(),
+                        private val clickClass: (sicloClass: SicloClass) -> Unit ): RecyclerView.Adapter<SicloClassViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SicloClassViewHolder =
         SicloClassViewHolder(RowEventCalendarBinding.inflate(LayoutInflater.from(parent.context), null, false))
@@ -15,7 +16,7 @@ class SicloClassAdapter(private val listEvents: MutableList<SicloClass> =  mutab
     override fun getItemCount(): Int = listEvents.size
 
     override fun onBindViewHolder(holder: SicloClassViewHolder, position: Int) {
-        holder.bind(listEvents[position])
+        holder.bind(listEvents[position], clickClass)
     }
 
     fun addEvents(newListEvents: List<SicloClass>){
@@ -27,9 +28,12 @@ class SicloClassAdapter(private val listEvents: MutableList<SicloClass> =  mutab
 }
 
 class SicloClassViewHolder(private val binding: RowEventCalendarBinding): RecyclerView.ViewHolder(binding.root){
-    fun bind(sicloClass: SicloClass){
+    fun bind(sicloClass: SicloClass, clickClass: (sicloClass: SicloClass) -> Unit ){
         binding.apply {
             classObject = sicloClass
+            cardClass.setOnClickListener {
+                clickClass.invoke(sicloClass)
+            }
         }
     }
 }

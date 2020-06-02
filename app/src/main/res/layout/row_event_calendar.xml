@@ -16,6 +16,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardClass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -35,11 +36,11 @@
                     android:id="@+id/instructorView"
                     android:layout_width="100dp"
                     android:layout_height="120dp"
-                    app:setInstructorImage="@{classObject.instructor.facePhoto}"
                     android:background="@android:color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:setInstructorImage="@{classObject.instructor.facePhoto}" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewClasName"
@@ -47,35 +48,41 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/roboto_regular"
-                    tools:text="Siclo+ 45 min"
-                    app:fontFamily="@font/roboto_black"
                     android:text="@{classObject.tipo}"
+                    app:fontFamily="@font/roboto_black"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewInstructorName"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@id/instructorView"
-                    app:layout_constraintTop_toTopOf="@id/instructorView" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Siclo+ 45 min" />
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/instructorName"
+                    android:id="@+id/textViewInstructorName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/roboto_regular"
-                    tools:text="Instructor: Jonatan Munguia"
-                    app:setInstructorName="@{classObject.instructor.nombre}"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewclassHour"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@id/instructorView"
-                    app:layout_constraintTop_toBottomOf="@id/textViewClasName" />
+                    app:layout_constraintTop_toBottomOf="@+id/textViewClasName"
+                    app:setInstructorName="@{classObject.instructor.nombre}"
+                    tools:text="Instructor: Jonatan Munguia" />
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/classHour"
+                    android:id="@+id/textViewclassHour"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    tools:text="Horario: 07:00 AM"
-                    app:setClassHour="@{classObject.hour}"
+                    app:layout_constraintBottom_toTopOf="@+id/classDuration"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/instructorName"
-                    app:layout_constraintTop_toBottomOf="@id/instructorName" />
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@id/textViewInstructorName"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewInstructorName"
+                    app:setClassHour="@{classObject.hour}"
+                    tools:text="Horario: 07:00 AM" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/classDuration"
@@ -83,21 +90,25 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
                     android:text="Duración: 45 min"
-                    app:setDurationClass="@{classObject.duration}"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewClassIntensity"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/instructorName"
-                    app:layout_constraintTop_toBottomOf="@id/classHour" />
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@id/textViewClasName"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewclassHour"
+                    app:setDurationClass="@{classObject.duration}" />
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/classIntensity"
+                    android:id="@+id/textViewClassIntensity"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
                     android:text="Intensidad: 3"
-                    app:setIntensityClass="@{classObject.intensity}"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@id/instructorName"
-                    app:layout_constraintTop_toBottomOf="@id/classDuration" />
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@id/textViewClasName"
+                    app:layout_constraintTop_toBottomOf="@+id/classDuration"
+                    app:setIntensityClass="@{classObject.intensity}" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
