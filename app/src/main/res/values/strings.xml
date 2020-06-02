@@ -23,4 +23,5 @@
     <string name="accept">Aceptar</string>
     <string name="cancel">Cancelar</string>
     <string name="video_url">https://drive.google.com/file/d/1MjhlX4Q_qvKKeDwB178TeMrnLrLIFw4k</string>
+    <string name="day_name_number_day"></string>
 </resources>

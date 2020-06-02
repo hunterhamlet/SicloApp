@@ -1949,6 +1949,7 @@ id textSpacerNoTitle
 id textStart
 id textViewClasName
 id textViewClassIntensity
+id textViewDate
 id textViewDayNumber
 id textViewDayTitle
 id textViewInstructorName
@@ -2189,6 +2190,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string continueString
+string day_name_number_day
 string duration_class
 string error_icon_content_description
 string exo_controls_fastforward_description

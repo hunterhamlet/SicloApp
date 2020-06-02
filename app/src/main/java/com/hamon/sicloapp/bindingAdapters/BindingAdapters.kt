@@ -5,6 +5,9 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.databinding.BindingAdapter
 import coil.api.load
 import com.hamon.sicloapp.R
+import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.util.*
 
 @BindingAdapter("app:setInstructorImage")
 fun AppCompatImageView.setInstructorImage(urlPhoto: String) {
