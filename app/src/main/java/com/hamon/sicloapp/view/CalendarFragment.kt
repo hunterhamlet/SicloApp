@@ -47,6 +47,7 @@ class CalendarFragment : Fragment() {
     private fun setObservables() {
         viewModel.listOfDays.observe(viewLifecycleOwner, Observer { listOfDays ->
             daysAdapter.addDays(listOfDays)
+            viewModel.getListEvents(listOfDays.first())
         })
         viewModel.userName.observe(viewLifecycleOwner, Observer { userName ->
             binding.welcomeTitle.text = getString(R.string.welcomeUser, userName.capitalize())
