@@ -29,6 +29,9 @@
         <action
             android:id="@+id/action_calendarFragment_to_enrollClasFragment"
             app:destination="@id/enrollClasFragment" />
+        <action
+            android:id="@+id/action_calendarFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
     </fragment>
 
     <fragment
@@ -52,5 +55,9 @@
             android:id="@+id/action_loginFragment_to_calendarFragment"
             app:destination="@id/calendarFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.hamon.sicloapp.view.VideoFragment"
+        android:label="VideoFragment" />
 
 </navigation>

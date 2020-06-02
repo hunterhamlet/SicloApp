@@ -3,12 +3,14 @@ package com.hamon.sicloapp.bindingAdapters
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.databinding.BindingAdapter
+import coil.api.load
 import com.hamon.sicloapp.R
-import com.squareup.picasso.Picasso
 
 @BindingAdapter("app:setInstructorImage")
 fun AppCompatImageView.setInstructorImage(urlPhoto: String){
-    Picasso.get().load(urlPhoto).into(this)
+    this.load(urlPhoto){
+        placeholder(R.drawable.ic_person)
+    }
 }
 
 @BindingAdapter("app:setInstructorName")
