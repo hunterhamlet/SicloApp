@@ -13,15 +13,15 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardDayCalendar"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            android:layout_margin="5dp"
+            android:layout_width="@dimen/eighty_dp"
+            android:layout_height="@dimen/one_hundred_dp"
+            android:layout_margin="@dimen/five_dp"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?selectableItemBackground"
             app:cardBackgroundColor="@android:color/darker_gray"
-            app:cardCornerRadius="5dp"
-            app:cardElevation="2dp">
+            app:cardCornerRadius="@dimen/five_dp"
+            app:cardElevation="@dimen/two_dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -29,10 +29,10 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewDayTitle"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/twenty_four_sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -40,10 +40,10 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewDayNumber"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_width="@dimen/emptySize"
+                    android:layout_height="@dimen/emptySize"
                     android:gravity="center"
-                    android:textSize="30sp"
+                    android:textSize="@dimen/thirty_sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

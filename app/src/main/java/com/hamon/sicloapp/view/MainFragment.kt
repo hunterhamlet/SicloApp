@@ -18,25 +18,29 @@ class MainFragment : Fragment() {
     }
     private val viewModel: MainViewModel by inject()
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?)
-            : View? =  binding.root
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    )
+            : View? = binding.root
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        if (viewModel.getIsFirstTime()){
+        if (viewModel.getIsFirstTime()) {
             setupClickListener()
-        }else{
+        } else {
             findNavController().navigate(R.id.action_mainFragment_to_calendarFragment)
         }
     }
 
-    private fun setupClickListener(){
+    private fun setupClickListener() {
         binding.apply {
-            if (viewModel.getIsFirstTime()){
+            if (viewModel.getIsFirstTime()) {
                 buttonRegister.setOnClickListener {
                     findNavController().navigate(R.id.action_mainFragment_to_registerFragment)
                 }
-            }else{
+            } else {
                 buttonRegister.isEnabled = false
             }
             buttonLogin.setOnClickListener {

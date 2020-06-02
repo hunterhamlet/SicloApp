@@ -30,7 +30,7 @@ class CalendarFragment : Fragment() {
         CalendarDaysAdapter { dayClicked -> dayClicked(dayClicked) }
     }
     private val eventsAdapter: SicloClassAdapter by lazy {
-        SicloClassAdapter{ sicloclass -> showDialog(sicloclass) }
+        SicloClassAdapter { sicloclass -> showDialog(sicloclass) }
     }
 
     override fun onCreateView(
@@ -44,47 +44,51 @@ class CalendarFragment : Fragment() {
         setupRecyclers()
     }
 
-    private fun setObservables(){
-        viewModel.listOfDays.observe(viewLifecycleOwner, Observer {listOfDays ->
+    private fun setObservables() {
+        viewModel.listOfDays.observe(viewLifecycleOwner, Observer { listOfDays ->
             daysAdapter.addDays(listOfDays)
         })
-        viewModel.userName.observe(viewLifecycleOwner, Observer {userName ->
+        viewModel.userName.observe(viewLifecycleOwner, Observer { userName ->
             binding.welcomeTitle.text = getString(R.string.welcomeUser, userName.capitalize())
         })
-        viewModel.listEvents.observe(viewLifecycleOwner, Observer {listEvents ->
+        viewModel.listEvents.observe(viewLifecycleOwner, Observer { listEvents ->
             eventsAdapter.addEvents(listEvents)
         })
     }
 
-    private fun dayClicked(dayClicked: String){
+    private fun dayClicked(dayClicked: String) {
         viewModel.getListEvents(dayClicked)
     }
 
-    private fun setupRecyclers(){
+    private fun setupRecyclers() {
         binding.apply {
             recyclerDays.adapter = daysAdapter
             recyclerClases.adapter = eventsAdapter
         }
     }
 
-    private fun showDialog(sicloClass: SicloClass){
+    private fun showDialog(sicloClass: SicloClass) {
         MaterialAlertDialogBuilder(requireContext())
             .setTitle(resources.getString(R.string.inscription_title))
-            .setMessage(resources.getString(R.string.inscription_message,
-                sicloClass.tipo,
-                sicloClass.instructor.nombre,
-                sicloClass.hour,
-                sicloClass.duration.toString(),
-                sicloClass.intensity.toString()))
-            .setPositiveButton(resources.getString(R.string.accept)){ dialog, which ->
+            .setMessage(
+                resources.getString(
+                    R.string.inscription_message,
+                    sicloClass.tipo,
+                    sicloClass.instructor.nombre,
+                    sicloClass.hour,
+                    sicloClass.duration.toString(),
+                    sicloClass.intensity.toString()
+                )
+            )
+            .setPositiveButton(resources.getString(R.string.accept)) { dialog, which ->
                 showVideo()
                 dialog.dismiss()
-            }.setNegativeButton(resources.getString(R.string.cancel)){ dialog, which ->
+            }.setNegativeButton(resources.getString(R.string.cancel)) { dialog, which ->
                 dialog.dismiss()
             }.show()
     }
 
-    private fun showVideo(){
+    private fun showVideo() {
         findNavController().navigate(R.id.action_calendarFragment_to_videoFragment)
     }
 

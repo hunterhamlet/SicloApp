@@ -57,8 +57,7 @@
             android:layout_margin="@dimen/sixteen_dp"
             app:layout_constraintEnd_toEndOf="@id/inputLayoutNames"
             app:layout_constraintStart_toStartOf="@id/inputLayoutNames"
-            app:layout_constraintTop_toBottomOf="@id/inputLayoutLastName"
-            >
+            app:layout_constraintTop_toBottomOf="@id/inputLayoutLastName">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inputSecondLastName"
@@ -120,13 +119,13 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonContinue"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
             style="@style/buttonColor"
+            android:layout_width="@dimen/two_fifty_dp"
+            android:layout_height="@dimen/sixty_dp"
+            android:layout_margin="@dimen/sixteen_dp"
             android:text="@string/continueString"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_margin="@dimen/sixteen_dp"/>
+            app:layout_constraintEnd_toEndOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

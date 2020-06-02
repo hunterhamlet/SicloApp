@@ -13,11 +13,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_bold"
-            android:textSize="28dp"
-            android:padding="16dp"
-            tools:text="Bienvenido, Jonatan"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp" />
+            android:padding="@dimen/sixteen_dp"
+            android:paddingStart="@dimen/sixteen_dp"
+            android:paddingEnd="@dimen/sixteen_dp"
+            android:textSize="@dimen/twenty_eight_sp"
+            tools:text="Bienvenido, Jonatan" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerDays"

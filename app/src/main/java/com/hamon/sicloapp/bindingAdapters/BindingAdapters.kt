@@ -7,28 +7,28 @@ import coil.api.load
 import com.hamon.sicloapp.R
 
 @BindingAdapter("app:setInstructorImage")
-fun AppCompatImageView.setInstructorImage(urlPhoto: String){
-    this.load(urlPhoto){
+fun AppCompatImageView.setInstructorImage(urlPhoto: String) {
+    this.load(urlPhoto) {
         placeholder(R.drawable.ic_person)
     }
 }
 
 @BindingAdapter("app:setInstructorName")
-fun AppCompatTextView.setInstructorName(instructorName: String){
+fun AppCompatTextView.setInstructorName(instructorName: String) {
     this.setText(this.context.getString(R.string.instructor_name, instructorName))
 }
 
 @BindingAdapter("app:setClassHour")
-fun AppCompatTextView.setClassHour(classHour: String){
+fun AppCompatTextView.setClassHour(classHour: String) {
     this.setText(this.context.getString(R.string.init_class, classHour))
 }
 
 @BindingAdapter("app:setDurationClass")
-fun AppCompatTextView.setDurationClass(durationClass: Int){
+fun AppCompatTextView.setDurationClass(durationClass: Int) {
     this.setText(this.context.getString(R.string.duration_class, durationClass.toString()))
 }
 
 @BindingAdapter("app:setIntensityClass")
-fun AppCompatTextView.setIntensityClass(intensityClass: Int){
+fun AppCompatTextView.setIntensityClass(intensityClass: Int) {
     this.setText(this.context.getString(R.string.intensity_class, intensityClass.toString()))
 }

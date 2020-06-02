@@ -10,7 +10,7 @@ import org.koin.core.context.startKoin
 import org.koin.dsl.module
 import timber.log.Timber
 
-class SicloApp : Application(){
+class SicloApp : Application() {
 
     private val appModule = module {
         single { SicloPreferences(this@SicloApp) }
@@ -21,7 +21,7 @@ class SicloApp : Application(){
         startKoin {
             androidLogger()
             androidContext(this@SicloApp)
-            modules(listOf(appModule,coreModule))
+            modules(listOf(appModule, coreModule))
         }
         if (BuildConfig.DEBUG) {
             Timber.plant(Timber.DebugTree())

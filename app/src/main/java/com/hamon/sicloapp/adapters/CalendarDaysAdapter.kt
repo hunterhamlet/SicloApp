@@ -5,8 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.hamon.sicloapp.databinding.RowCalendarDayWeekBinding
 
-class CalendarDaysAdapter(private val listDays: MutableList<String> = mutableListOf(),
-                          private val clickDay: (dayKey: String) -> Unit): RecyclerView.Adapter<CalendarDayViewHolder>(){
+class CalendarDaysAdapter(
+    private val listDays: MutableList<String> = mutableListOf(),
+    private val clickDay: (dayKey: String) -> Unit
+) : RecyclerView.Adapter<CalendarDayViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CalendarDayViewHolder =
         CalendarDayViewHolder(
@@ -16,18 +18,19 @@ class CalendarDaysAdapter(private val listDays: MutableList<String> = mutableLis
     override fun getItemCount(): Int = listDays.size
 
     override fun onBindViewHolder(holder: CalendarDayViewHolder, position: Int) {
-        holder.bind(listDays[position], clickDay )
+        holder.bind(listDays[position], clickDay)
     }
 
-    fun addDays(newListOfDays: MutableList<String>){
+    fun addDays(newListOfDays: MutableList<String>) {
         listDays.clear()
         listDays.addAll(newListOfDays)
         notifyDataSetChanged()
     }
 }
 
-class CalendarDayViewHolder(private val binding: RowCalendarDayWeekBinding): RecyclerView.ViewHolder(binding.root){
-    fun bind(day: String,clickDay: (dayKey: String) -> Unit){
+class CalendarDayViewHolder(private val binding: RowCalendarDayWeekBinding) :
+    RecyclerView.ViewHolder(binding.root) {
+    fun bind(day: String, clickDay: (dayKey: String) -> Unit) {
         val daySplit = day.split(" ")
         binding.apply {
             textViewDayTitle.text = daySplit[0]
