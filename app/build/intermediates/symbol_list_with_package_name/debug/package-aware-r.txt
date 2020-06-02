@@ -1174,12 +1174,16 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen eight_dp
+dimen eighty_dp
 dimen emptySize
 dimen exo_media_button_height
 dimen exo_media_button_width
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen five_dp
+dimen four_dp
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1374,12 +1378,16 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen one_hundred_dp
+dimen one_twenty_dp
 dimen sixteen_dp
+dimen sixty_dp
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen test_mtrl_calendar_day_cornerSize
+dimen thirty_sp
 dimen titleAppSize
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1389,6 +1397,10 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen twenty_eight_sp
+dimen twenty_four_sp
+dimen two_dp
+dimen two_fifty_dp
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1937,6 +1949,7 @@ id textSpacerNoTitle
 id textStart
 id textViewClasName
 id textViewClassIntensity
+id textViewDate
 id textViewDayNumber
 id textViewDayTitle
 id textViewInstructorName
@@ -2070,7 +2083,6 @@ layout exo_player_view
 layout exo_simple_player_view
 layout exo_track_selection_dialog
 layout fragment_calendar
-layout fragment_enroll_clas
 layout fragment_login
 layout fragment_main
 layout fragment_register
@@ -2178,6 +2190,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string continueString
+string day_name_number_day
 string duration_class
 string error_icon_content_description
 string exo_controls_fastforward_description
@@ -2223,6 +2236,7 @@ string exo_track_unknown
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string field_empty
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -2285,6 +2299,8 @@ string userLastName
 string userName
 string userPass
 string userSecondLastName
+string user_invalid
+string user_register_success
 string video_url
 string welcomeUser
 style AlertDialog_AppCompat

@@ -11,7 +11,7 @@ object Retrofit {
 
     const val URL_BASE = "https://api.siclo.com/api/v2/plus/"
 
-    private fun createInstance(baseURL: String) : Retrofit{
+    private fun createInstance(baseURL: String): Retrofit {
         val logging = HttpLoggingInterceptor()
         logging.level = HttpLoggingInterceptor.Level.BODY
         val okHttpClient = OkHttpClient.Builder()

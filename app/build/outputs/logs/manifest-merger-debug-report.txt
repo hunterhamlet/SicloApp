@@ -147,7 +147,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hamo
 activity#com.hamon.sicloapp.view.SplashActivity
 ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:18:9-27:20
 	android:screenOrientation
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:19:13-51
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:19:13-49
 	android:theme
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:20:13-47
 	android:name
@@ -163,9 +163,9 @@ ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidMa
 	android:name
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.hamon.sicloapp.view.MainActivity
-ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:28:9-29:53
+ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:28:9-29:51
 	android:screenOrientation
-		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:29:13-51
+		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:29:13-49
 	android:name
 		ADDED from /Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/AndroidManifest.xml:28:19-52
 uses-sdk

@@ -19,23 +19,23 @@
             android:id="@+id/cardClass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_margin="@dimen/four_dp"
             android:clickable="true"
             android:focusable="true"
             app:cardBackgroundColor="@color/greyWhite"
-            app:cardCornerRadius="5dp">
+            app:cardCornerRadius="@dimen/five_dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/cardDragged"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="4dp"
+                android:layout_margin="@dimen/four_dp"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/instructorView"
-                    android:layout_width="100dp"
-                    android:layout_height="120dp"
+                    android:layout_width="@dimen/one_hundred_dp"
+                    android:layout_height="@dimen/one_twenty_dp"
                     android:background="@android:color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -44,28 +44,26 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewClasName"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="@dimen/eight_dp"
                     android:fontFamily="@font/roboto_regular"
                     android:text="@{classObject.tipo}"
                     app:fontFamily="@font/roboto_black"
                     app:layout_constraintBottom_toTopOf="@+id/textViewInstructorName"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@id/instructorView"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="Siclo+ 45 min" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewInstructorName"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="@dimen/eight_dp"
                     android:fontFamily="@font/roboto_regular"
                     app:layout_constraintBottom_toTopOf="@+id/textViewclassHour"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@id/instructorView"
                     app:layout_constraintTop_toBottomOf="@+id/textViewClasName"
                     app:setInstructorName="@{classObject.instructor.nombre}"
@@ -73,12 +71,11 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewclassHour"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
                     app:layout_constraintBottom_toTopOf="@+id/classDuration"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="@id/textViewInstructorName"
                     app:layout_constraintTop_toBottomOf="@+id/textViewInstructorName"
                     app:setClassHour="@{classObject.hour}"
@@ -86,26 +83,24 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/classDuration"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:text="Duración: 45 min"
+                    tools:text="Duración: 45 min"
                     app:layout_constraintBottom_toTopOf="@+id/textViewClassIntensity"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="@id/textViewClasName"
                     app:layout_constraintTop_toBottomOf="@+id/textViewclassHour"
                     app:setDurationClass="@{classObject.duration}" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textViewClassIntensity"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/emptySize"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:text="Intensidad: 3"
+                    tools:text="Intensidad: 3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="@id/textViewClasName"
                     app:layout_constraintTop_toBottomOf="@+id/classDuration"
                     app:setIntensityClass="@{classObject.intensity}" />

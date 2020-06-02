@@ -12,20 +12,21 @@ import com.hamon.sicloapp.utils.getKeysAndValues
 import kotlinx.coroutines.launch
 import timber.log.Timber
 
-class CalendarViewModel(private val sicloControllerImpl: SicloControllerImpl,
-                        private val preferences: SicloPreferences): ViewModel(){
+class CalendarViewModel(
+    private val sicloControllerImpl: SicloControllerImpl,
+    private val preferences: SicloPreferences
+) : ViewModel() {
 
     private val _listOfDays: MutableLiveData<MutableList<String>> by lazy { MutableLiveData<MutableList<String>>() }
     val listOfDays: MutableLiveData<MutableList<String>> get() = _listOfDays
     private var sicloCalendar = SicloResponse()
     private val _userName: MutableLiveData<String> by lazy { MutableLiveData<String>() }
-    private var mapDays : Map<String, List<SicloClass>> = mapOf()
+    private var mapDays: Map<String, List<SicloClass>> = mapOf()
     val userName: MutableLiveData<String> get() = _userName
     private val _listEvents: MutableLiveData<List<SicloClass>> by lazy { MutableLiveData<List<SicloClass>>() }
-    val listEvents: MutableLiveData<List<SicloClass>>get() = _listEvents
+    val listEvents: MutableLiveData<List<SicloClass>> get() = _listEvents
 
     init {
-        Timber.tag("JHMM").d("initViewModel")
         viewModelScope.launch {
             sicloCalendar = sicloControllerImpl.getActivitiesCalendar()
             mapDays = sicloCalendar.calendar
@@ -34,7 +35,7 @@ class CalendarViewModel(private val sicloControllerImpl: SicloControllerImpl,
         _userName.postValue(preferences.getUserName())
     }
 
-    fun getListEvents(keyDay: String){
+    fun getListEvents(keyDay: String) {
         _listEvents.postValue(mapDays.getValue(keyDay))
     }
 

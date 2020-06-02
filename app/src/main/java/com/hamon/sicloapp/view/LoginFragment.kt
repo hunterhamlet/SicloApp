@@ -32,20 +32,27 @@ class LoginFragment : Fragment() {
         setObservable()
     }
 
-    private fun setClickListener(){
+    private fun setClickListener() {
         binding.apply {
             buttonLogin.setOnClickListener {
-                viewModel.checkUserEmailAndPass(inputUserEmail.text.toString(), inputUserPass.text.toString())
+                viewModel.checkUserEmailAndPass(
+                    inputUserEmail.text.toString(),
+                    inputUserPass.text.toString()
+                )
             }
         }
     }
 
-    private fun setObservable(){
-        viewModel.isNewUserObservable.observe(viewLifecycleOwner, Observer {isUserRegister ->
-            if (isUserRegister){
+    private fun setObservable() {
+        viewModel.isNewUserObservable.observe(viewLifecycleOwner, Observer { isUserRegister ->
+            if (isUserRegister) {
                 findNavController().navigate(R.id.action_loginFragment_to_calendarFragment)
-            }else{
-                Toast.makeText(context, "Usuario o contraseña erróneos", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(
+                    context,
+                    resources.getString(R.string.user_invalid),
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         })
     }

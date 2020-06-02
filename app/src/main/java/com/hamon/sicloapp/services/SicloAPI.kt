@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface SicloAPI {
 
     @GET("calendar/?location=603967&page_size=-1")
-    suspend fun getActivitiesCalendar():SicloResponse
+    suspend fun getActivitiesCalendar(): SicloResponse
 }

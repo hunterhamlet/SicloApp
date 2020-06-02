@@ -3,7 +3,7 @@ package com.hamon.sicloapp.models
 import com.squareup.moshi.Json
 
 data class SicloResponse(
-    @field:Json(name = "calendar") val calendar: Map<String,List<SicloClass>> = mapOf<String,List<SicloClass>>(),
+    @field:Json(name = "calendar") val calendar: Map<String, List<SicloClass>> = mapOf<String, List<SicloClass>>(),
     @field:Json(name = "instructors") val instructors: List<Instructor> = listOf()
 )
 

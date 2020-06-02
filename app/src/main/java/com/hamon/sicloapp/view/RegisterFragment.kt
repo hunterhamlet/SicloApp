@@ -17,7 +17,7 @@ import org.koin.android.ext.android.inject
 
 class RegisterFragment : Fragment() {
 
-    private val binding : FragmentRegisterBinding by lazy {
+    private val binding: FragmentRegisterBinding by lazy {
         FragmentRegisterBinding.inflate(LayoutInflater.from(context), null, false)
     }
     private val viewModel: RegisterViewModel by inject()
@@ -33,10 +33,10 @@ class RegisterFragment : Fragment() {
         addTextWatcher()
     }
 
-    private fun setupClickListener(){
+    private fun setupClickListener() {
         binding.apply {
             buttonContinue.setOnClickListener {
-                if (checkIfFieldNotNull()){
+                if (checkIfFieldNotNull()) {
                     viewModel.saveInfoUser(
                         name = inputNames.text.toString(),
                         firstName = inputLastName.text.toString(),
@@ -44,7 +44,12 @@ class RegisterFragment : Fragment() {
                         email = inputUserEmail.text.toString(),
                         password = inputUserPass.text.toString()
                     )
-                    Toast.makeText(context, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        context,
+                        resources.getString(R.string.user_register_success),
+                        Toast.LENGTH_SHORT
+                    )
+                        .show()
                     findNavController().navigate(R.id.action_registerFragment_to_calendarFragment)
                 }
             }
@@ -54,35 +59,36 @@ class RegisterFragment : Fragment() {
     private fun checkIfFieldNotNull(): Boolean {
         var isNotNullAllFields = true
         binding.apply {
-            if(inputNames.text.toString().isNotEmpty() &&
+            if (inputNames.text.toString().isNotEmpty() &&
                 inputLastName.text.toString().isNotEmpty() &&
                 inputSecondLastName.text.toString().isNotEmpty() &&
                 inputUserEmail.text.toString().isNotEmpty() &&
-                inputUserPass.text.toString().isNotEmpty()){
+                inputUserPass.text.toString().isNotEmpty()
+            ) {
                 isNotNullAllFields = true
-            }else if(inputNames.text.toString().isEmpty()){
-                inputLayoutNames.error = "Este campo no debe estar vacío."
+            } else if (inputNames.text.toString().isEmpty()) {
+                inputLayoutNames.error = resources.getString(R.string.field_empty)
                 isNotNullAllFields = false
-            }else if(inputLastName.text.toString().isEmpty()){
-                inputLayoutLastName.error = "Este campo no debe estar vacío."
+            } else if (inputLastName.text.toString().isEmpty()) {
+                inputLayoutLastName.error = resources.getString(R.string.field_empty)
                 isNotNullAllFields = false
-            }else if(inputSecondLastName.text.toString().isEmpty()){
-                inputLayoutSecondLastName.error = "Este campo no debe estar vacío."
+            } else if (inputSecondLastName.text.toString().isEmpty()) {
+                inputLayoutSecondLastName.error = resources.getString(R.string.field_empty)
                 isNotNullAllFields = false
-            }else if(inputUserEmail.text.toString().isEmpty()){
-                inputLayoutUserEmail.error = "Este campo no debe estar vacío."
+            } else if (inputUserEmail.text.toString().isEmpty()) {
+                inputLayoutUserEmail.error = resources.getString(R.string.field_empty)
                 isNotNullAllFields = false
-            }else if(inputUserPass.text.toString().isEmpty()){
-                inputLayoutUserPass.error = "Este campo no debe estar vacío."
+            } else if (inputUserPass.text.toString().isEmpty()) {
+                inputLayoutUserPass.error = resources.getString(R.string.field_empty)
                 isNotNullAllFields = false
             }
         }
-        return  isNotNullAllFields
+        return isNotNullAllFields
     }
 
-    private fun addTextWatcher(){
+    private fun addTextWatcher() {
         binding.apply {
-            inputNames.addTextChangedListener(object: TextWatcher{
+            inputNames.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {}
 
                 override fun beforeTextChanged(
@@ -97,7 +103,7 @@ class RegisterFragment : Fragment() {
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             })
-            inputLastName.addTextChangedListener(object: TextWatcher{
+            inputLastName.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {}
 
                 override fun beforeTextChanged(
@@ -112,7 +118,7 @@ class RegisterFragment : Fragment() {
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             })
-            inputSecondLastName.addTextChangedListener(object: TextWatcher{
+            inputSecondLastName.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {}
 
                 override fun beforeTextChanged(
@@ -127,7 +133,7 @@ class RegisterFragment : Fragment() {
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             })
-            inputUserEmail.addTextChangedListener(object: TextWatcher{
+            inputUserEmail.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {}
 
                 override fun beforeTextChanged(
@@ -142,7 +148,7 @@ class RegisterFragment : Fragment() {
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             })
-            inputUserPass.addTextChangedListener(object: TextWatcher{
+            inputUserPass.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {}
 
                 override fun beforeTextChanged(

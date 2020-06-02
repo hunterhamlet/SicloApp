@@ -36,10 +36,6 @@
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-xxxhdpi/ic_bike_splash.png"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_enroll_clas.xml.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_enroll_clas.xml"
-    },
-    {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_light.ttf.flat",
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/font/roboto_light.ttf"
     },
@@ -96,12 +92,12 @@
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_calendar.xml"
     },
     {
-        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_bike_splash.png.flat",
-        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-mdpi/ic_bike_splash.png"
-    },
-    {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/layout_fragment_video.xml.flat",
         "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/layout/fragment_video.xml"
+    },
+    {
+        "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_bike_splash.png.flat",
+        "source": "/Users/hamon/Documents/AndroidProject/SicloApp/app/src/main/res/drawable-mdpi/ic_bike_splash.png"
     },
     {
         "merged": "/Users/hamon/Documents/AndroidProject/SicloApp/app/build/intermediates/res/merged/debug/font_roboto_thin_italic.ttf.flat",
